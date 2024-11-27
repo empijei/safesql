@@ -1,4 +1,4 @@
-# safesql
+# safesql implementation for Go [![GoDoc](https://pkg.go.dev/badge/github.com/empijei/safesql)](https://pkg.go.dev/github.com/empijei/safesql) [![Go Report Card](https://goreportcard.com/badge/github.com/empijei/safesql)](https://goreportcard.com/report/github.com/empijei/safesql) [![Go build and tests](https://github.com/empijei/safesql/actions/workflows/go.yml/badge.svg)](https://github.com/empijei/safesql/actions/workflows/go.yml)
 
 Go safe SQL implementation
 

@@ -83,8 +83,8 @@ func (t String) String() string {
 }
 
 // StringSplit functions as strings.Split but for [String]s.
-func StringSplit(s String, sep String) []String {
-	spl := strings.Split(s.s, sep.s)
+func StringSplit(s String, sep string) []String {
+	spl := strings.Split(s.s, sep)
 	accum := make([]String, 0, len(spl))
 	for _, s := range spl {
 		accum = append(accum, String{s})
